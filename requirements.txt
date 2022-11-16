@@ -6,7 +6,7 @@ attrs==19.1.0
 awscli==1.16.203
 Babel==2.7.0
 backcall==0.1.0
-bleach==3.1.0
+bleach==3.3.0
 boto3==1.9.193
 botocore==1.12.193
 cached-property==1.5.1
@@ -48,14 +48,14 @@ ipywidgets==7.5.0
 iso8601==0.1.12
 itsdangerous==1.1.0
 jedi==0.14.1
-Jinja2==2.10.1
+Jinja2==2.11.3
 jmespath==0.9.4
 json-merge-patch==0.2
 jsonschema==3.0.1
 jupyter==1.0.0
 jupyter-client==5.3.1
 jupyter-console==6.0.0
-jupyter-core==4.5.0
+jupyter-core==4.11.2
 keyring==19.0.2
 kiwisolver==1.1.0
 koalas==0.13.0
@@ -68,8 +68,8 @@ marshmallow==2.19.5
 marshmallow-enum==1.4.1
 marshmallow-sqlalchemy==0.17.0
 matplotlib==3.1.1
-mistune==0.8.4
-nbconvert==5.5.0
+mistune==2.0.3
+nbconvert==6.3.0b0
 nbformat==4.4.0
 notebook==6.0.0
 numpy==1.16.4
@@ -89,7 +89,7 @@ ptyprocess==0.6.0
 py4j==0.10.7
 pyarrow==0.14.1
 pyasn1==0.4.5
-Pygments==2.4.2
+Pygments==2.7.4
 PyJWT==1.7.1
 pyparsing==2.4.1
 pyrsistent==0.15.3
@@ -127,9 +127,10 @@ traitlets==4.3.2
 twine==1.13.0
 tzlocal==1.5.1
 unicodecsv==0.14.1
-urllib3==1.25.3
+urllib3==1.26.5
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.0
 WTForms==2.2.1
 zope.deprecation==4.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
