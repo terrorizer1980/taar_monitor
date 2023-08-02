@@ -3,7 +3,7 @@ apache-airflow==1.10.4
 apispec==2.0.2
 appnope==0.1.0
 attrs==19.1.0
-awscli==1.16.203
+awscli==1.16.213
 Babel==2.7.0
 backcall==0.1.0
 bleach==3.1.0
