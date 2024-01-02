@@ -1,5 +1,5 @@
 alembic==1.0.11
-apache-airflow==1.10.4
+apache-airflow==2.6.3
 apispec==2.0.2
 appnope==0.1.0
 attrs==19.1.0
@@ -83,7 +83,7 @@ pickleshare==0.7.5
 pkginfo==1.5.0.1
 prison==0.1.0
 prometheus-client==0.7.1
-prompt-toolkit==2.0.9
+prompt-toolkit==3.0.13
 psutil==5.6.3
 ptyprocess==0.6.0
 py4j==0.10.7
