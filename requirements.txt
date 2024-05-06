@@ -133,3 +133,4 @@ webencodings==0.5.1
 widgetsnbextension==3.5.0
 WTForms==2.2.1
 zope.deprecation==4.4.0
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
